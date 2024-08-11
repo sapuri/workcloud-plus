@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+
+  "name": "Workcloud Plus",
+  "description": "Add useful features to Workcloud.",
+  "version": "1.0.0",
+
+  "action": {
+    "default_icon": "images/icon_16.png"
+  },
+
+  "icons": {
+    "16": "images/icon_16.png",
+    "48": "images/icon_48.png",
+    "128": "images/icon_128.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://workcloud.jp/timesheets/*"],
+      "js": ["js/content_script.js"],
+      "css": ["style.css"]
+    }
+  ],
+
+  "permissions": [],
+
+  "host_permissions": [
+    "https://workcloud.jp/timesheets/*"
+  ]
+}
