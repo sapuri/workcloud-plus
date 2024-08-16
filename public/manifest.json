@@ -3,7 +3,7 @@
 
   "name": "Workcloud Plus",
   "description": "Add useful features to Workcloud.",
-  "version": "1.0.0",
+  "version": "1.0.1",
 
   "action": {
     "default_icon": "images/icon_16.png"
